@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/', //as default
       routes: {
-         '/':(ctx) => TabScreen(),
+         '/':(ctx) => TabsScreen(),
         CategoryMealsScreen.routeName: (ctx) => CategoryMealsScreen(),
         MealScreenDetail.routeName:(ctx) => MealScreenDetail()
       },
